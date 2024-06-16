@@ -17,4 +17,5 @@ console.log(typeof name1);
 //null=>it is define a var that is empty
 
 console.log(typeof null);
+console.log(null);
 
