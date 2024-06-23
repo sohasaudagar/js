@@ -11,7 +11,7 @@
 
 let mytimestamp= new Date()
 console.log(mytimestamp.toLocaleString());
-console.log((Math.floor(Date.now()/1000));
+console.log(Math.floor(Date.now()/1000));
 
 
 
