@@ -68,6 +68,39 @@ console.log(obj3);
 //  }
 //  console.log(ab);
 
+const course={
+    name:"soha",
+    id:"1",
+    courseinstructor:"soha"
+}
+   console.log(course.courseinstructor);
+   //OR
+  
+   const{courseinstructor:instructor}=course
+
+   console.log(instructor);
+
+///database se data json ya array me aata
+{
+    "name":"soha",
+    "id":"2",
+    "price":"free"
+}
+      [
+        {},
+        {},
+        {},
+      ]
+
+
+
+
+
+
+
+
+
+
 
 
 
