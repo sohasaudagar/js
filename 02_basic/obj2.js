@@ -81,16 +81,16 @@ const course={
    console.log(instructor);
 
 ///database se data json ya array me aata
-{
-    "name":"soha",
-    "id":"2",
-    "price":"free"
-}
-      [
-        {},
-        {},
-        {},
-      ]
+// {
+//     "name":"soha",
+//     "id":"2",
+//     "price":"free"
+// }
+//       [
+//         {},
+//         {},
+//         {},
+//       ]
 
 
 
