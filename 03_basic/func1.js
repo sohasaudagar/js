@@ -5,7 +5,7 @@ function myname(){
     console.log("h");
     console.log("a");
 }
-     console.log(myname());
+    //  console.log(myname());
    //function woth parametere
 
    function AddTwoNumbers(number1,number2){
@@ -14,7 +14,7 @@ function myname(){
     // return result
     return number1+number2
    }
-   const result=AddTwoNumbers(2,4)
+//    const result=AddTwoNumbers(2,4)
 
 
    //user login hota toh usko message ke liye func
@@ -25,6 +25,51 @@ function myname(){
     }
     return`${username} just logged in`
    }
+
+  //cardprice func
+  function CardPrice(val1,val2,...num1){//-->well use this (...num1)jab 200 ke jagah 200,3999,400aise jyada value ho tab
+    return num1
+  }
+ console.log(CardPrice(200,300,400,2000));
+
+const user={
+    username:"soha",
+    price:199
+}
+
+function handleObject(anyobject){
+    console.log(`the use anem is${anyobject.username}and price is ${anyobject.price}`);
+}
+
+handleObject(user)
+
+
+///direct bhi poass kar sakte
+
+ handleObject({
+    username:"soha",
+    price:100
+})
+
+
+//array bhi use hota func me
+
+const myarray=[200,300,388]
+    function printarr(arrelement){
+      return arrelement[1]
+    }
+
+
+console.log(printarr(myarray));
+
+
+
+
+
+
+
+
+
 
 
 
