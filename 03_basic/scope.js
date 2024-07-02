@@ -7,9 +7,47 @@ if(true){
      console.log("INNER:",a);
 
      }
-      for(i=0;i<Array.length;i++){
-        const element=
-      }
-    console.log(a);
+      // for(i=0;i<Array.length;i++){
+      //   const element=
+      // // }
+    // console.log(a);
     // console.log(b);
-    console.log(c);
+    // console.log(c);
+
+
+    ///hoisting
+
+   function one(){
+      const username="soha"
+       function two(){
+        const website="youtube"
+        console.log(website);
+        console.log(username);
+       }
+      //  console.log(website);
+       two()
+       }
+
+        one()
+        ////parent func,loop if else cannot access the child elemet
+        ///child func ,loop if else can access the parent elemnet
+       
+       
+        addone()//-->apn direct declarartion me func k declration ke phele bhi usko call kar saktewhereas
+        function addone(num){
+          return num+1
+        }
+
+  //  addone()
+      //-->yaha pe function ke ddeclaration k phele usko call nahi karsakte
+     const addtwo = function(num){
+      return num+2
+     }
+
+
+
+
+
+
+
+
