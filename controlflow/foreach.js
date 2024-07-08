@@ -29,8 +29,27 @@ coding.forEach( (items,index,arr)=>{//--->arrow function
   ]
 
   mycoding.forEach( (items)=>{
-    console.log(items.languagename);
+    //console.log(items.languagename );
   })
+
+
+ const mynum=[1,2,3,4,5,,6,7,8,9,10]
+
+ const num=mynum.filter( (num)=>{
+  return num>4
+ } )
+
+//  console.log(num);
+
+
+ const newnum =[]
+  newnum.forEach((num)=>{
+    if (num>4) {
+      newnum.push(num)
+    }
+  })
+
+
 
 
 
