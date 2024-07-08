@@ -10,4 +10,18 @@ for (const num of arr) {
     
  }
 
- //maps
+ //maps 
+ const map =new Map()
+
+ map.set('IN',"India")
+ map.set('USA',"United states of america")
+ map.set('Fr',"france")
+
+
+ console.log(map);
+
+  for (const [key,value] of map) {
+    console.log(key,":-",value);
+  }
+
+  
